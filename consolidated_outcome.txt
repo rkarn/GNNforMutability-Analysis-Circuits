@@ -1,0 +1,139 @@
+GCN:
+
+[SEED 0 TEST RESULTS] GNN (gate nodes, unseen circuits)
+  MSE      : 0.000350
+  MAE      : 0.012787
+  Spearman : 0.8008
+
+[SEED 0 TEST RESULTS] Baseline (1 - betweenness)
+  MSE      : 0.081592
+  MAE      : 0.282489
+  Spearman : 0.0120
+
+[SEED 1 TEST RESULTS] GNN (gate nodes, unseen circuits)
+  MSE      : 0.000261
+  MAE      : 0.010251
+  Spearman : 0.7755
+
+[SEED 1 TEST RESULTS] Baseline (1 - betweenness)
+  MSE      : 0.075579
+  MAE      : 0.271924
+  Spearman : 0.3269
+
+
+
+GraphSAGE:
+
+================ AGGREGATE GraphSAGE RESULTS OVER SEEDS ================
+  MSE      : 0.000443 ± 0.000038
+  MAE      : 0.013592 ± 0.001691
+  Spearman : 0.7569 ± 0.0372
+
+================ AGGREGATE BASELINE RESULTS OVER SEEDS ================
+  MSE      : 0.078585 ± 0.003006
+  MAE      : 0.277204 ± 0.005281
+  Spearman : 0.1633 ± 0.1533
+
+
+
+GIN:
+
+================ AGGREGATE GIN RESULTS OVER SEEDS ================
+  MSE      : 0.000460 ± 0.000092
+  MAE      : 0.013752 ± 0.001654
+  Spearman : 0.6807 ± 0.0056
+
+================ AGGREGATE BASELINE RESULTS OVER SEEDS ================
+  MSE      : 0.078585 ± 0.003007
+  MAE      : 0.277205 ± 0.005283
+  Spearman : 0.1632 ± 0.1540
+
+
+GAT:
+
+================ AGGREGATE GAT RESULTS OVER SEEDS ================
+  MSE      : 0.000449 ± 0.000054
+  MAE      : 0.013186 ± 0.001290
+  Spearman : 0.7430 ± 0.0311
+
+================ AGGREGATE BASELINE RESULTS OVER SEEDS ================
+  MSE      : 0.078584 ± 0.003007
+  MAE      : 0.277201 ± 0.005282
+  Spearman : 0.1601 ± 0.1549
+
+
+MPNN:
+
+================ AGGREGATE MPNN RESULTS OVER SEEDS ================
+  MSE      : 0.000479 ± 0.000065
+  MAE      : 0.013477 ± 0.001430
+  Spearman : 0.7600 ± 0.0166
+
+================ AGGREGATE BASELINE RESULTS OVER SEEDS ================
+  MSE      : 0.078586 ± 0.003007
+  MAE      : 0.277206 ± 0.005282
+  Spearman : 0.1592 ± 0.1543
+
+
+APPNP:
+
+================ AGGREGATE APPNP RESULTS OVER SEEDS ================
+  MSE      : 0.000425 ± 0.000065
+  MAE      : 0.012841 ± 0.001340
+  Spearman : 0.7250 ± 0.0141
+
+================ AGGREGATE BASELINE RESULTS OVER SEEDS ================
+  MSE      : 0.078587 ± 0.003007
+  MAE      : 0.277207 ± 0.005282
+  Spearman : 0.1585 ± 0.1570
+
+Graph-U-Net:
+
+================ AGGREGATE Graph U-Net RESULTS OVER SEEDS ================
+  MSE      : 0.000452 ± 0.000060
+  MAE      : 0.013444 ± 0.001190
+  Spearman : 0.8129 ± 0.0205
+
+================ AGGREGATE BASELINE RESULTS OVER SEEDS ================
+  MSE      : 0.078584
+  MAE      : 0.277203
+  Spearman : 0.1634
+
+
+Het-GNN:
+
+================ AGGREGATE HetGNN-like RESULTS OVER SEEDS ================
+  MSE      : 0.000497 ± 0.000048
+  MAE      : 0.013723 ± 0.001363
+  Spearman : 0.7706 ± 0.0236
+
+================ AGGREGATE BASELINE RESULTS OVER SEEDS ================
+  MSE      : 0.078587 ± 0.003007
+  MAE      : 0.277209 ± 0.005283
+  Spearman : 0.1673 ± 0.1540
+
+
+SGNN:
+
+================ AGGREGATE SGNN RESULTS OVER SEEDS ================
+  MSE      : 0.208580 ± 0.012030
+  MAE      : 0.152096 ± 0.005838
+  Spearman : 0.4894 ± 0.2005
+
+================ AGGREGATE BASELINE RESULTS OVER SEEDS ================
+  MSE      : 0.078588 ± 0.003008
+  MAE      : 0.277211 ± 0.005284
+  Spearman : 0.1658 ± 0.1512
+
+
+GTN:
+
+================ AGGREGATE GTN (TransformerConv) RESULTS OVER SEEDS ================
+  MSE      : 0.000499 ± 0.000101
+  MAE      : 0.013293 ± 0.001864
+  Spearman : 0.7952 ± 0.0301
+
+================ AGGREGATE BASELINE RESULTS OVER SEEDS ================
+  MSE      : 0.078584
+  MAE      : 0.277203
+  Spearman : 0.1662
