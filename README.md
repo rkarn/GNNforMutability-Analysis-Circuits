@@ -16,7 +16,7 @@ This repository contains a topology-driven framework for structural manipulation
     - SGNN (Signed Graph Neural Networks): `SGNN_mutability_prediction.ipynb`
     - GTN (Graph Transformer Networks): `GTN_mutability_prediction.ipynb`
   3. The notebook `Some_analysis.ipynb` contains several analysis of `M(v)` that are part of the paper. They are:
-     - Component-Level Analysis of Structural Manipulability
+     - Per-Circuit Spearman Correlation Analaysis 
      - Ablation Study on Structural Components of M(v)
      - Correlation with Circuit Structural Statistics
      - Robustness Across Design Styles and Circuit Sizes
