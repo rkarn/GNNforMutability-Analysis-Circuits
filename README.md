@@ -25,6 +25,7 @@ This repository contains a topology-driven framework for structural manipulation
      - CounterMUX
      - FSMOR
   7. The notebook `M(v) on Trojanized Netlist.ipynb` contains the source code to calculate structural manipulation metric on netlist obtained from Trojan injection, i.e. from `verilog_benchmark_circuits_Trojan` folder.
+  8. `reviewer's concern address.ipynb` contains the additional analyses performed in response to the journal reviewers' comments after the initial submission. Rather than modifying the primary experimental pipeline, this notebook reuses the preprocessed graph dataset to conduct supplementary experiments, including component-weight sensitivity analysis, comparison between the composite structural manipulability score and its individual structural components, and other reviewer-requested validation studies. It also generates the tables and figures incorporated into the revised manuscript, providing a reproducible record of all experiments added specifically to address the review process while leaving the original methodology and main results unchanged.
 
 #### To start the experiment, please follow the order above.
 
